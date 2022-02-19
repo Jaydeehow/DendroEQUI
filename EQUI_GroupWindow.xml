@@ -77,9 +77,11 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Button>
-	
-	<Gauge item="GW_GaugeMe">
-		<ScreenID>GaugeMe</ScreenID>
+
+	<!--Player 0 is "this" player-->
+	<!--All references to 0 are the active player's gauges, labels, etc.-->
+	<Gauge item="GW_Gauge0">
+		<ScreenID>Gauge0</ScreenID>
 		<TextColor>
 			<R>240</R>
 			<G>240</G>
@@ -106,8 +108,8 @@
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Gauge>
-	<Gauge item="GW_PetGaugeMe">
-		<ScreenID>PetGaugeMe</ScreenID>
+	<Gauge item="GW_PetGauge0">
+		<ScreenID>PetGauge0</ScreenID>
 		<TextOffsetY>-50</TextOffsetY>
 		<GaugeOffsetY>-2</GaugeOffsetY>
 		<RelativePosition>true</RelativePosition>
@@ -130,8 +132,8 @@
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Gauge>
-	<Gauge item="GW_ManaGaugeMe">
-		<ScreenID>ManaGaugeMe</ScreenID>
+	<Gauge item="GW_ManaGauge0">
+		<ScreenID>ManaGauge0</ScreenID>
 		<TextOffsetY>-50</TextOffsetY>
 		<GaugeOffsetY>-2</GaugeOffsetY>
 		<RelativePosition>true</RelativePosition>
@@ -151,8 +153,8 @@
 		<LeftAnchorOffset>24</LeftAnchorOffset>
 		<RightAnchorOffset>10</RightAnchorOffset>
 	</Gauge>
-	<Gauge item="GW_STAGaugeMe">
-		<ScreenID>STAGaugeMe</ScreenID>
+	<Gauge item="GW_STAGauge0">
+		<ScreenID>STAGauge0</ScreenID>
 		<TextOffsetY>-50</TextOffsetY>
 		<GaugeOffsetY>-2</GaugeOffsetY>
 		<RelativePosition>true</RelativePosition>
@@ -172,37 +174,6 @@
 		<LeftAnchorOffset>24</LeftAnchorOffset>
 		<RightAnchorOffset>10</RightAnchorOffset>
 	</Gauge>
-	<Label item="GW_HPLabelMe">
-		<ScreenID>HPLabelMe</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>100</Text>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
-		<EQType>19</EQType>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>21</TopAnchorOffset>
-		<BottomAnchorOffset>33</BottomAnchorOffset>
-		<LeftAnchorOffset>20</LeftAnchorOffset>
-		<RightAnchorOffset>6</RightAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	<Label item="GW_HPPercLabelMe">
-		<ScreenID>HPPercLabelMe</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Text>%</Text>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-		<Font>2</Font>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>21</TopAnchorOffset>
-		<BottomAnchorOffset>33</BottomAnchorOffset>
-		<LeftAnchorOffset>48</LeftAnchorOffset>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<Style_Tooltip>false</Style_Tooltip>
-	</Label>
-	
 	<Gauge item="GW_Gauge1">
 		<ScreenID>Gauge1</ScreenID>
 		<TextColor>
@@ -225,8 +196,8 @@
 		</GaugeDrawTemplate>
 		<GaugeOffsetY>15</GaugeOffsetY>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>2</TopAnchorOffset>
-		<BottomAnchorOffset>37</BottomAnchorOffset>
+		<TopAnchorOffset>43</TopAnchorOffset>
+		<BottomAnchorOffset>78</BottomAnchorOffset>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -249,8 +220,8 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>37</TopAnchorOffset>
-		<BottomAnchorOffset>43</BottomAnchorOffset>
+		<TopAnchorOffset>78</TopAnchorOffset>
+		<BottomAnchorOffset>84</BottomAnchorOffset>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -270,8 +241,8 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>28</TopAnchorOffset>
-		<BottomAnchorOffset>36</BottomAnchorOffset>
+		<TopAnchorOffset>69</TopAnchorOffset>
+		<BottomAnchorOffset>77</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorOffset>24</LeftAnchorOffset>
 		<RightAnchorOffset>10</RightAnchorOffset>
@@ -291,8 +262,8 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>32</TopAnchorOffset>
-		<BottomAnchorOffset>36</BottomAnchorOffset>
+		<TopAnchorOffset>73</TopAnchorOffset>
+		<BottomAnchorOffset>77</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorOffset>24</LeftAnchorOffset>
 		<RightAnchorOffset>10</RightAnchorOffset>
@@ -319,8 +290,8 @@
 		</GaugeDrawTemplate>
 		<GaugeOffsetY>15</GaugeOffsetY>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>43</TopAnchorOffset>
-		<BottomAnchorOffset>78</BottomAnchorOffset>
+		<TopAnchorOffset>84</TopAnchorOffset>
+		<BottomAnchorOffset>119</BottomAnchorOffset>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -343,8 +314,8 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>78</TopAnchorOffset>
-		<BottomAnchorOffset>84</BottomAnchorOffset>
+		<TopAnchorOffset>119</TopAnchorOffset>
+		<BottomAnchorOffset>125</BottomAnchorOffset>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -364,8 +335,8 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>69</TopAnchorOffset>
-		<BottomAnchorOffset>77</BottomAnchorOffset>
+		<TopAnchorOffset>110</TopAnchorOffset>
+		<BottomAnchorOffset>118</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<RightAnchorOffset>10</RightAnchorOffset>
 		<LeftAnchorOffset>24</LeftAnchorOffset>
@@ -385,8 +356,8 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>73</TopAnchorOffset>
-		<BottomAnchorOffset>77</BottomAnchorOffset>
+		<TopAnchorOffset>114</TopAnchorOffset>
+		<BottomAnchorOffset>118</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<RightAnchorOffset>10</RightAnchorOffset>
 		<LeftAnchorOffset>24</LeftAnchorOffset>
@@ -413,8 +384,8 @@
 		</GaugeDrawTemplate>
 		<GaugeOffsetY>15</GaugeOffsetY>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>84</TopAnchorOffset>
-		<BottomAnchorOffset>119</BottomAnchorOffset>
+		<TopAnchorOffset>125</TopAnchorOffset>
+		<BottomAnchorOffset>160</BottomAnchorOffset>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -437,8 +408,8 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>119</TopAnchorOffset>
-		<BottomAnchorOffset>125</BottomAnchorOffset>
+		<TopAnchorOffset>160</TopAnchorOffset>
+		<BottomAnchorOffset>166</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
@@ -458,8 +429,8 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>110</TopAnchorOffset>
-		<BottomAnchorOffset>118</BottomAnchorOffset>
+		<TopAnchorOffset>151</TopAnchorOffset>
+		<BottomAnchorOffset>159</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorOffset>24</LeftAnchorOffset>
 		<RightAnchorOffset>10</RightAnchorOffset>
@@ -479,8 +450,8 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>114</TopAnchorOffset>
-		<BottomAnchorOffset>118</BottomAnchorOffset>
+		<TopAnchorOffset>155</TopAnchorOffset>
+		<BottomAnchorOffset>159</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<RightAnchorOffset>10</RightAnchorOffset>
 		<LeftAnchorOffset>24</LeftAnchorOffset>
@@ -507,8 +478,8 @@
 		</GaugeDrawTemplate>
 		<GaugeOffsetY>15</GaugeOffsetY>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>125</TopAnchorOffset>
-		<BottomAnchorOffset>160</BottomAnchorOffset>
+		<TopAnchorOffset>166</TopAnchorOffset>
+		<BottomAnchorOffset>201</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
@@ -531,8 +502,8 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>160</TopAnchorOffset>
-		<BottomAnchorOffset>166</BottomAnchorOffset>
+		<TopAnchorOffset>201</TopAnchorOffset>
+		<BottomAnchorOffset>207</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
@@ -552,8 +523,8 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>151</TopAnchorOffset>
-		<BottomAnchorOffset>159</BottomAnchorOffset>
+		<TopAnchorOffset>192</TopAnchorOffset>
+		<BottomAnchorOffset>200</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorOffset>24</LeftAnchorOffset>
 		<RightAnchorOffset>10</RightAnchorOffset>
@@ -573,8 +544,8 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>155</TopAnchorOffset>
-		<BottomAnchorOffset>159</BottomAnchorOffset>
+		<TopAnchorOffset>196</TopAnchorOffset>
+		<BottomAnchorOffset>200</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<RightAnchorOffset>10</RightAnchorOffset>
 		<LeftAnchorOffset>24</LeftAnchorOffset>
@@ -601,8 +572,8 @@
 		</GaugeDrawTemplate>
 		<GaugeOffsetY>15</GaugeOffsetY>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>166</TopAnchorOffset>
-		<BottomAnchorOffset>201</BottomAnchorOffset>
+		<TopAnchorOffset>207</TopAnchorOffset>
+		<BottomAnchorOffset>242</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
@@ -625,8 +596,8 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>201</TopAnchorOffset>
-		<BottomAnchorOffset>207</BottomAnchorOffset>
+		<TopAnchorOffset>242</TopAnchorOffset>
+		<BottomAnchorOffset>248</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
@@ -646,8 +617,8 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>192</TopAnchorOffset>
-		<BottomAnchorOffset>200</BottomAnchorOffset>
+		<TopAnchorOffset>233</TopAnchorOffset>
+		<BottomAnchorOffset>241</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<LeftAnchorOffset>24</LeftAnchorOffset>
 		<RightAnchorOffset>10</RightAnchorOffset>
@@ -667,12 +638,42 @@
 			<Fill>A_GaugeFill</Fill>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>196</TopAnchorOffset>
-		<BottomAnchorOffset>200</BottomAnchorOffset>
+		<TopAnchorOffset>237</TopAnchorOffset>
+		<BottomAnchorOffset>241</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<RightAnchorOffset>10</RightAnchorOffset>
 		<LeftAnchorOffset>24</LeftAnchorOffset>
 	</Gauge>
+	<Label item="GW_HPLabel0">
+		<ScreenID>HPLabel0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Text>100</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<Font>2</Font>
+		<EQType>19</EQType>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>21</TopAnchorOffset>
+		<BottomAnchorOffset>33</BottomAnchorOffset>
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+		<RightAnchorOffset>6</RightAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Tooltip>false</Style_Tooltip>
+	</Label>
+	<Label item="GW_HPPercLabel0">
+		<ScreenID>HPPercLabel0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Text>%</Text>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+		<Font>2</Font>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>21</TopAnchorOffset>
+		<BottomAnchorOffset>33</BottomAnchorOffset>
+		<LeftAnchorOffset>48</LeftAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Tooltip>false</Style_Tooltip>
+	</Label>
 	<Label item="GW_HPLabel1">
 		<ScreenID>HPLabel1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -682,8 +683,8 @@
 		<Font>2</Font>
 		<EQType>35</EQType>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>21</TopAnchorOffset>
-		<BottomAnchorOffset>33</BottomAnchorOffset>
+		<TopAnchorOffset>62</TopAnchorOffset>
+		<BottomAnchorOffset>74</BottomAnchorOffset>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -697,8 +698,8 @@
 		<AlignCenter>true</AlignCenter>
 		<Font>2</Font>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>21</TopAnchorOffset>
-		<BottomAnchorOffset>33</BottomAnchorOffset>
+		<TopAnchorOffset>62</TopAnchorOffset>
+		<BottomAnchorOffset>74</BottomAnchorOffset>
 		<LeftAnchorOffset>48</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -712,8 +713,8 @@
 		<Font>2</Font>
 		<EQType>36</EQType>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>62</TopAnchorOffset>
-		<BottomAnchorOffset>74</BottomAnchorOffset>
+		<TopAnchorOffset>103</TopAnchorOffset>
+		<BottomAnchorOffset>115</BottomAnchorOffset>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -727,8 +728,8 @@
 		<AlignCenter>true</AlignCenter>
 		<Font>2</Font>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>62</TopAnchorOffset>
-		<BottomAnchorOffset>74</BottomAnchorOffset>
+		<TopAnchorOffset>103</TopAnchorOffset>
+		<BottomAnchorOffset>115</BottomAnchorOffset>
 		<LeftAnchorOffset>48</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -742,8 +743,8 @@
 		<Font>2</Font>
 		<EQType>37</EQType>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>103</TopAnchorOffset>
-		<BottomAnchorOffset>115</BottomAnchorOffset>
+		<TopAnchorOffset>144</TopAnchorOffset>
+		<BottomAnchorOffset>156</BottomAnchorOffset>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -757,8 +758,8 @@
 		<AlignCenter>true</AlignCenter>
 		<Font>2</Font>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>103</TopAnchorOffset>
-		<BottomAnchorOffset>115</BottomAnchorOffset>
+		<TopAnchorOffset>144</TopAnchorOffset>
+		<BottomAnchorOffset>156</BottomAnchorOffset>
 		<LeftAnchorOffset>48</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -772,8 +773,8 @@
 		<Font>2</Font>
 		<EQType>38</EQType>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>144</TopAnchorOffset>
-		<BottomAnchorOffset>156</BottomAnchorOffset>
+		<TopAnchorOffset>185</TopAnchorOffset>
+		<BottomAnchorOffset>197</BottomAnchorOffset>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -787,8 +788,8 @@
 		<AlignCenter>true</AlignCenter>
 		<Font>2</Font>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>144</TopAnchorOffset>
-		<BottomAnchorOffset>156</BottomAnchorOffset>
+		<TopAnchorOffset>185</TopAnchorOffset>
+		<BottomAnchorOffset>197</BottomAnchorOffset>
 		<LeftAnchorOffset>48</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -802,8 +803,8 @@
 		<Font>2</Font>
 		<EQType>39</EQType>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>185</TopAnchorOffset>
-		<BottomAnchorOffset>197</BottomAnchorOffset>
+		<TopAnchorOffset>226</TopAnchorOffset>
+		<BottomAnchorOffset>238</BottomAnchorOffset>
 		<LeftAnchorOffset>20</LeftAnchorOffset>
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -817,8 +818,8 @@
 		<AlignCenter>true</AlignCenter>
 		<Font>2</Font>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>185</TopAnchorOffset>
-		<BottomAnchorOffset>197</BottomAnchorOffset>
+		<TopAnchorOffset>226</TopAnchorOffset>
+		<BottomAnchorOffset>238</BottomAnchorOffset>
 		<LeftAnchorOffset>48</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -837,8 +838,8 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<ButtonDrawTemplate />
 	</Button>
-	<Button item="GW_GroupRoleTank1">
-		<ScreenID>GroupRoleTank1</ScreenID>
+	<Button item="GW_GroupRoleTank0">
+		<ScreenID>GroupRoleTank0</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
@@ -857,8 +858,8 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Button>
-	<Button item="GW_GroupRoleAssist1">
-		<ScreenID>GroupRoleAssist1</ScreenID>
+	<Button item="GW_GroupRoleAssist0">
+		<ScreenID>GroupRoleAssist0</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
@@ -871,6 +872,86 @@
 		</DecalSize>
 		<TopAnchorOffset>2</TopAnchorOffset>
 		<BottomAnchorOffset>17</BottomAnchorOffset>
+		<LeftAnchorOffset>45</LeftAnchorOffset>
+		<RightAnchorOffset>30</RightAnchorOffset>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Button>
+	<Button item="GW_GroupRolePuller0">
+		<ScreenID>GroupRolePuller0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+			<NormalDecal>A_Puller</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalSize>
+			<CX>15</CX>
+			<CY>15</CY>
+		</DecalSize>
+		<LeftAnchorOffset>30</LeftAnchorOffset>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<RightAnchorOffset>15</RightAnchorOffset>
+		<BottomAnchorOffset>17</BottomAnchorOffset>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Button>
+	<Button item="GW_GroupRoleMarkNPC0">
+		<ScreenID>GroupRoleMarkNPC0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+			<NormalDecal>A_MarkNPC</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalSize>
+			<CX>15</CX>
+			<CY>15</CY>
+		</DecalSize>
+		<TopAnchorOffset>2</TopAnchorOffset>
+		<BottomAnchorOffset>17</BottomAnchorOffset>
+		<LeftAnchorOffset>15</LeftAnchorOffset>
+		<RightAnchorOffset>0</RightAnchorOffset>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Button>
+	<Button item="GW_GroupRoleTank1">
+		<ScreenID>GroupRoleTank1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+			<NormalDecal>A_Tank</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalSize>
+			<CX>15</CX>
+			<CY>15</CY>
+		</DecalSize>
+		<TopAnchorOffset>43</TopAnchorOffset>
+		<BottomAnchorOffset>58</BottomAnchorOffset>
+		<LeftAnchorOffset>60</LeftAnchorOffset>
+		<RightAnchorOffset>45</RightAnchorOffset>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorToLeft>false</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Button>
+	<Button item="GW_GroupRoleAssist1">
+		<ScreenID>GroupRoleAssist1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Style_Transparent>false</Style_Transparent>
+		<Style_Checkbox>false</Style_Checkbox>
+		<ButtonDrawTemplate>
+			<NormalDecal>A_Assist</NormalDecal>
+		</ButtonDrawTemplate>
+		<DecalSize>
+			<CX>15</CX>
+			<CY>15</CY>
+		</DecalSize>
+		<TopAnchorOffset>43</TopAnchorOffset>
+		<BottomAnchorOffset>58</BottomAnchorOffset>
 		<LeftAnchorOffset>45</LeftAnchorOffset>
 		<RightAnchorOffset>30</RightAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -890,9 +971,9 @@
 			<CY>15</CY>
 		</DecalSize>
 		<LeftAnchorOffset>30</LeftAnchorOffset>
-		<TopAnchorOffset>2</TopAnchorOffset>
+		<TopAnchorOffset>43</TopAnchorOffset>
 		<RightAnchorOffset>15</RightAnchorOffset>
-		<BottomAnchorOffset>17</BottomAnchorOffset>
+		<BottomAnchorOffset>58</BottomAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -909,8 +990,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>2</TopAnchorOffset>
-		<BottomAnchorOffset>17</BottomAnchorOffset>
+		<TopAnchorOffset>43</TopAnchorOffset>
+		<BottomAnchorOffset>58</BottomAnchorOffset>
 		<LeftAnchorOffset>15</LeftAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -929,8 +1010,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>43</TopAnchorOffset>
-		<BottomAnchorOffset>58</BottomAnchorOffset>
+		<TopAnchorOffset>84</TopAnchorOffset>
+		<BottomAnchorOffset>99</BottomAnchorOffset>
 		<LeftAnchorOffset>60</LeftAnchorOffset>
 		<RightAnchorOffset>45</RightAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -949,8 +1030,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>43</TopAnchorOffset>
-		<BottomAnchorOffset>58</BottomAnchorOffset>
+		<TopAnchorOffset>84</TopAnchorOffset>
+		<BottomAnchorOffset>99</BottomAnchorOffset>
 		<RightAnchorOffset>30</RightAnchorOffset>
 		<LeftAnchorOffset>45</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -969,8 +1050,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>43</TopAnchorOffset>
-		<BottomAnchorOffset>58</BottomAnchorOffset>
+		<TopAnchorOffset>84</TopAnchorOffset>
+		<BottomAnchorOffset>99</BottomAnchorOffset>
 		<RightAnchorOffset>15</RightAnchorOffset>
 		<LeftAnchorOffset>30</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -989,8 +1070,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>43</TopAnchorOffset>
-		<BottomAnchorOffset>58</BottomAnchorOffset>
+		<TopAnchorOffset>84</TopAnchorOffset>
+		<BottomAnchorOffset>99</BottomAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
 		<LeftAnchorOffset>15</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1009,8 +1090,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>84</TopAnchorOffset>
-		<BottomAnchorOffset>99</BottomAnchorOffset>
+		<TopAnchorOffset>125</TopAnchorOffset>
+		<BottomAnchorOffset>140</BottomAnchorOffset>
 		<LeftAnchorOffset>60</LeftAnchorOffset>
 		<RightAnchorOffset>45</RightAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1029,8 +1110,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>84</TopAnchorOffset>
-		<BottomAnchorOffset>99</BottomAnchorOffset>
+		<TopAnchorOffset>125</TopAnchorOffset>
+		<BottomAnchorOffset>140</BottomAnchorOffset>
 		<RightAnchorOffset>30</RightAnchorOffset>
 		<LeftAnchorOffset>45</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1049,8 +1130,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>84</TopAnchorOffset>
-		<BottomAnchorOffset>99</BottomAnchorOffset>
+		<TopAnchorOffset>125</TopAnchorOffset>
+		<BottomAnchorOffset>140</BottomAnchorOffset>
 		<RightAnchorOffset>15</RightAnchorOffset>
 		<LeftAnchorOffset>30</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1069,8 +1150,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>84</TopAnchorOffset>
-		<BottomAnchorOffset>99</BottomAnchorOffset>
+		<TopAnchorOffset>125</TopAnchorOffset>
+		<BottomAnchorOffset>140</BottomAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
 		<LeftAnchorOffset>15</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1089,8 +1170,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>125</TopAnchorOffset>
-		<BottomAnchorOffset>140</BottomAnchorOffset>
+		<TopAnchorOffset>166</TopAnchorOffset>
+		<BottomAnchorOffset>181</BottomAnchorOffset>
 		<LeftAnchorOffset>60</LeftAnchorOffset>
 		<RightAnchorOffset>45</RightAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1109,8 +1190,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>125</TopAnchorOffset>
-		<BottomAnchorOffset>140</BottomAnchorOffset>
+		<TopAnchorOffset>166</TopAnchorOffset>
+		<BottomAnchorOffset>181</BottomAnchorOffset>
 		<RightAnchorOffset>30</RightAnchorOffset>
 		<LeftAnchorOffset>45</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1129,8 +1210,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>125</TopAnchorOffset>
-		<BottomAnchorOffset>140</BottomAnchorOffset>
+		<TopAnchorOffset>166</TopAnchorOffset>
+		<BottomAnchorOffset>188</BottomAnchorOffset>
 		<RightAnchorOffset>15</RightAnchorOffset>
 		<LeftAnchorOffset>30</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1149,8 +1230,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>125</TopAnchorOffset>
-		<BottomAnchorOffset>140</BottomAnchorOffset>
+		<TopAnchorOffset>166</TopAnchorOffset>
+		<BottomAnchorOffset>181</BottomAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
 		<LeftAnchorOffset>15</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1169,8 +1250,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>166</TopAnchorOffset>
-		<BottomAnchorOffset>181</BottomAnchorOffset>
+		<TopAnchorOffset>207</TopAnchorOffset>
+		<BottomAnchorOffset>222</BottomAnchorOffset>
 		<LeftAnchorOffset>60</LeftAnchorOffset>
 		<RightAnchorOffset>45</RightAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1189,8 +1270,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>166</TopAnchorOffset>
-		<BottomAnchorOffset>181</BottomAnchorOffset>
+		<TopAnchorOffset>207</TopAnchorOffset>
+		<BottomAnchorOffset>222</BottomAnchorOffset>
 		<RightAnchorOffset>30</RightAnchorOffset>
 		<LeftAnchorOffset>45</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1209,8 +1290,8 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>166</TopAnchorOffset>
-		<BottomAnchorOffset>181</BottomAnchorOffset>
+		<TopAnchorOffset>207</TopAnchorOffset>
+		<BottomAnchorOffset>222</BottomAnchorOffset>
 		<RightAnchorOffset>15</RightAnchorOffset>
 		<LeftAnchorOffset>30</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
@@ -1229,14 +1310,27 @@
 			<CX>15</CX>
 			<CY>15</CY>
 		</DecalSize>
-		<TopAnchorOffset>166</TopAnchorOffset>
-		<BottomAnchorOffset>181</BottomAnchorOffset>
+		<TopAnchorOffset>207</TopAnchorOffset>
+		<BottomAnchorOffset>222</BottomAnchorOffset>
 		<RightAnchorOffset>0</RightAnchorOffset>
 		<LeftAnchorOffset>15</LeftAnchorOffset>
 		<AutoStretch>true</AutoStretch>
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Button>
+	<Label item="GW_AggroPctPlayer0">
+		<ScreenID>GW_AggroPctPlayer0</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Font>2</Font>
+		<Text>78</Text>
+		<EQType>306</EQType>
+		<NoWrap>true</NoWrap>
+		<AutoStretch>true</AutoStretch>
+		<AlignLeft>true</AlignLeft>
+		<TopAnchorOffset>21</TopAnchorOffset>
+		<BottomAnchorOffset>33</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+	</Label>
 	<Label item="GW_AggroPctPlayer1">
 		<ScreenID>GW_AggroPctPlayer1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1246,8 +1340,8 @@
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
 		<AlignLeft>true</AlignLeft>
-		<TopAnchorOffset>21</TopAnchorOffset>
-		<BottomAnchorOffset>33</BottomAnchorOffset>
+		<TopAnchorOffset>62</TopAnchorOffset>
+		<BottomAnchorOffset>74</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	<Label item="GW_AggroPctPlayer2">
@@ -1259,8 +1353,8 @@
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
 		<AlignLeft>true</AlignLeft>
-		<TopAnchorOffset>62</TopAnchorOffset>
-		<BottomAnchorOffset>74</BottomAnchorOffset>
+		<TopAnchorOffset>103</TopAnchorOffset>
+		<BottomAnchorOffset>115</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	<Label item="GW_AggroPctPlayer3">
@@ -1272,8 +1366,8 @@
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
 		<AlignLeft>true</AlignLeft>
-		<TopAnchorOffset>103</TopAnchorOffset>
-		<BottomAnchorOffset>115</BottomAnchorOffset>
+		<TopAnchorOffset>144</TopAnchorOffset>
+		<BottomAnchorOffset>156</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	<Label item="GW_AggroPctPlayer4">
@@ -1285,8 +1379,8 @@
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
 		<AlignLeft>true</AlignLeft>
-		<TopAnchorOffset>144</TopAnchorOffset>
-		<BottomAnchorOffset>156</BottomAnchorOffset>
+		<TopAnchorOffset>185</TopAnchorOffset>
+		<BottomAnchorOffset>197</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	<Label item="GW_AggroPctPlayer5">
@@ -1298,8 +1392,8 @@
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
 		<AlignLeft>true</AlignLeft>
-		<TopAnchorOffset>185</TopAnchorOffset>
-		<BottomAnchorOffset>197</BottomAnchorOffset>
+		<TopAnchorOffset>226</TopAnchorOffset>
+		<BottomAnchorOffset>238</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	<Screen item="GroupWindow">
@@ -1327,37 +1421,38 @@
 		<MinVSize>90</MinVSize>
 		<Escapable>false</Escapable>
 		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Pieces>GW_AggroPctPlayer0</Pieces>
 		<Pieces>GW_AggroPctPlayer1</Pieces>
 		<Pieces>GW_AggroPctPlayer2</Pieces>
 		<Pieces>GW_AggroPctPlayer3</Pieces>
 		<Pieces>GW_AggroPctPlayer4</Pieces>
 		<Pieces>GW_AggroPctPlayer5</Pieces>
-		<Pieces>GW_GaugeMe</Pieces>
+		<Pieces>GW_Gauge0</Pieces>
 		<Pieces>GW_Gauge1</Pieces>
 		<Pieces>GW_Gauge2</Pieces>
 		<Pieces>GW_Gauge3</Pieces>
 		<Pieces>GW_Gauge4</Pieces>
 		<Pieces>GW_Gauge5</Pieces>
-		<Pieces>GW_PetGaugeMe</Pieces>
+		<Pieces>GW_PetGauge0</Pieces>
 		<Pieces>GW_PetGauge1</Pieces>
 		<Pieces>GW_PetGauge2</Pieces>
 		<Pieces>GW_PetGauge3</Pieces>
 		<Pieces>GW_PetGauge4</Pieces>
 		<Pieces>GW_PetGauge5</Pieces>
-		<Pieces>GW_ManaGaugeMe</Pieces>
+		<Pieces>GW_ManaGauge0</Pieces>
 		<Pieces>GW_ManaGauge1</Pieces>
 		<Pieces>GW_ManaGauge2</Pieces>
 		<Pieces>GW_ManaGauge3</Pieces>
 		<Pieces>GW_ManaGauge4</Pieces>
 		<Pieces>GW_ManaGauge5</Pieces>
-		<Pieces>GW_STAGaugeMe</Pieces>
+		<Pieces>GW_STAGauge0</Pieces>
 		<Pieces>GW_STAGauge1</Pieces>
 		<Pieces>GW_STAGauge2</Pieces>
 		<Pieces>GW_STAGauge3</Pieces>
 		<Pieces>GW_STAGauge4</Pieces>
 		<Pieces>GW_STAGauge5</Pieces>
-		<Pieces>GW_HPLabelMe</Pieces>
-		<Pieces>GW_HPPercLabelMe</Pieces>
+		<Pieces>GW_HPLabel0</Pieces>
+		<Pieces>GW_HPPercLabel0</Pieces>
 		<Pieces>GW_HPLabel1</Pieces>
 		<Pieces>GW_HPPercLabel1</Pieces>
 		<Pieces>GW_HPLabel2</Pieces>
@@ -1369,6 +1464,10 @@
 		<Pieces>GW_HPLabel5</Pieces>
 		<Pieces>GW_HPPercLabel5</Pieces>
 		<Pieces>GW_LFGButton</Pieces>
+		<Pieces>GW_GroupRoleTank0</Pieces>
+		<Pieces>GW_GroupRoleAssist0</Pieces>
+		<Pieces>GW_GroupRolePuller0</Pieces>
+		<Pieces>GW_GroupRoleMarkNPC0</Pieces>
 		<Pieces>GW_GroupRoleTank1</Pieces>
 		<Pieces>GW_GroupRoleAssist1</Pieces>
 		<Pieces>GW_GroupRolePuller1</Pieces>
