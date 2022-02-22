@@ -101,6 +101,8 @@
 			<Background>A_GaugeBackground</Background>
 		</GaugeDrawTemplate>
 		<GaugeOffsetY>15</GaugeOffsetY>
+		<!--This is a hack. EQType 1 is the only one that has both a gauge and a label in the same EQType. In order to get it to behave, you have to offset the text to be outside of the visible gauge area. You need a separate item for the name label where the gauge is offset outside the visible area so that only the name is visible.-->
+		<TextOffsetY>-50</TextOffsetY>
 		<AutoStretch>true</AutoStretch>
 		<TopAnchorOffset>2</TopAnchorOffset>
 		<BottomAnchorOffset>37</BottomAnchorOffset>
@@ -108,6 +110,30 @@
 		<RightAnchorOffset>6</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Gauge>
+        <Label item = "GW_Name0">
+		<!--This is the second part of the name/label hack of EQType 1.-->
+                <ScreenID>NameLabel</ScreenID>
+                <EQType>1</EQType>
+                <Font>2</Font>
+                <RelativePosition>true</RelativePosition>
+                <Location>
+                        <X>20</X>
+                        <Y>2</Y>
+                </Location>
+                <Size>
+                        <CX>112</CX>
+                        <CY>12</CY>
+                </Size>
+                <Text> </Text>
+                <TextColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                </TextColor>
+                <NoWrap>true</NoWrap>
+                <AlignCenter>false</AlignCenter>
+                <AlignRight>false</AlignRight>
+        </Label>
 	<Gauge item="GW_PetGauge0">
 		<ScreenID>PetGauge0</ScreenID>
 		<TextOffsetY>-50</TextOffsetY>
@@ -1427,6 +1453,7 @@
 		<Pieces>GW_AggroPctPlayer3</Pieces>
 		<Pieces>GW_AggroPctPlayer4</Pieces>
 		<Pieces>GW_AggroPctPlayer5</Pieces>
+		<Pieces>GW_Name0</Pieces>
 		<Pieces>GW_Gauge0</Pieces>
 		<Pieces>GW_Gauge1</Pieces>
 		<Pieces>GW_Gauge2</Pieces>
