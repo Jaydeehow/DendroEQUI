@@ -272,8 +272,8 @@
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>85</TopAnchorOffset>
-		<BottomAnchorOffset>95</BottomAnchorOffset>
+		<TopAnchorOffset>102</TopAnchorOffset>
+		<BottomAnchorOffset>112</BottomAnchorOffset>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<RightAnchorOffset>1</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -288,8 +288,8 @@
 		<AlignRight>false</AlignRight>
 		<Font>1</Font>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>85</TopAnchorOffset>
-		<BottomAnchorOffset>95</BottomAnchorOffset>
+		<TopAnchorOffset>102</TopAnchorOffset>
+		<BottomAnchorOffset>112</BottomAnchorOffset>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -578,8 +578,8 @@
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>95</TopAnchorOffset>
-		<BottomAnchorOffset>105</BottomAnchorOffset>
+		<TopAnchorOffset>65</TopAnchorOffset>
+		<BottomAnchorOffset>75</BottomAnchorOffset>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<RightAnchorOffset>1</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -593,8 +593,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>95</TopAnchorOffset>
-		<BottomAnchorOffset>105</BottomAnchorOffset>
+		<TopAnchorOffset>65</TopAnchorOffset>
+		<BottomAnchorOffset>75</BottomAnchorOffset>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -605,8 +605,8 @@
 		<Text>%</Text>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>95</TopAnchorOffset>
-		<BottomAnchorOffset>105</BottomAnchorOffset>
+		<TopAnchorOffset>65</TopAnchorOffset>
+		<BottomAnchorOffset>75</BottomAnchorOffset>
 		<LeftAnchorOffset>34</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -617,8 +617,8 @@
 		<Text>Lvl</Text>
 		<AlignCenter>false</AlignCenter>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>95</TopAnchorOffset>
-		<BottomAnchorOffset>105</BottomAnchorOffset>
+		<TopAnchorOffset>65</TopAnchorOffset>
+		<BottomAnchorOffset>75</BottomAnchorOffset>
 		<LeftAnchorOffset>6</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -648,8 +648,8 @@
 			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
 		</GaugeDrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>105</TopAnchorOffset>
-		<BottomAnchorOffset>115</BottomAnchorOffset>
+		<TopAnchorOffset>75</TopAnchorOffset>
+		<BottomAnchorOffset>85</BottomAnchorOffset>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<RightAnchorOffset>1</RightAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -663,8 +663,8 @@
 		<NoWrap>true</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>105</TopAnchorOffset>
-		<BottomAnchorOffset>115</BottomAnchorOffset>
+		<TopAnchorOffset>75</TopAnchorOffset>
+		<BottomAnchorOffset>85</BottomAnchorOffset>
 		<LeftAnchorOffset>2</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -675,8 +675,8 @@
 		<Text>%</Text>
 		<AlignCenter>true</AlignCenter>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>105</TopAnchorOffset>
-		<BottomAnchorOffset>115</BottomAnchorOffset>
+		<TopAnchorOffset>75</TopAnchorOffset>
+		<BottomAnchorOffset>85</BottomAnchorOffset>
 		<LeftAnchorOffset>34</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -687,8 +687,8 @@
 		<Text>AA</Text>
 		<AlignCenter>false</AlignCenter>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>105</TopAnchorOffset>
-		<BottomAnchorOffset>115</BottomAnchorOffset>
+		<TopAnchorOffset>75</TopAnchorOffset>
+		<BottomAnchorOffset>85</BottomAnchorOffset>
 		<LeftAnchorOffset>6</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -700,8 +700,8 @@
 		<Text>0</Text>
 		<AlignCenter>false</AlignCenter>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>105</TopAnchorOffset>
-		<BottomAnchorOffset>115</BottomAnchorOffset>
+		<TopAnchorOffset>75</TopAnchorOffset>
+		<BottomAnchorOffset>85</BottomAnchorOffset>
 		<LeftAnchorOffset>22</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
@@ -792,8 +792,8 @@
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
 		<AlignLeft>true</AlignLeft>
-		<TopAnchorOffset>65</TopAnchorOffset>
-		<BottomAnchorOffset>79</BottomAnchorOffset>
+		<TopAnchorOffset>85</TopAnchorOffset>
+		<BottomAnchorOffset>99</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	<Label item="PW_AggroNameSecondaryLabel">
@@ -805,8 +805,8 @@
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
 		<AlignCenter>true</AlignCenter>
-		<TopAnchorOffset>65</TopAnchorOffset>
-		<BottomAnchorOffset>79</BottomAnchorOffset>
+		<TopAnchorOffset>85</TopAnchorOffset>
+		<BottomAnchorOffset>99</BottomAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
 	<Label item="PW_AggroPctSecondaryLabel">
@@ -818,8 +818,8 @@
 		<NoWrap>true</NoWrap>
 		<AutoStretch>true</AutoStretch>
 		<AlignRight>true</AlignRight>
-		<TopAnchorOffset>65</TopAnchorOffset>
-		<BottomAnchorOffset>79</BottomAnchorOffset>
+		<TopAnchorOffset>85</TopAnchorOffset>
+		<BottomAnchorOffset>99</BottomAnchorOffset>
 		<LeftAnchorOffset>35</LeftAnchorOffset>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 	</Label>
