@@ -2962,6 +2962,14 @@
 		<Normal>A_RecessedBox</Normal>
 		<NormalDecal>A_DragItem</NormalDecal>
 	</ButtonDrawTemplate>
+	<ButtonDrawTemplate item="BDT_PlayerBuff">
+		<Normal>A_RecessedBox</Normal>
+		<NormalDecal>A_DragItem</NormalDecal>
+	</ButtonDrawTemplate>
+	<ButtonDrawTemplate item="BDT_TargetBuff">
+		<Normal>A_RecessedBox</Normal>
+		<NormalDecal>A_DragItem</NormalDecal>
+	</ButtonDrawTemplate>
 	<ButtonDrawTemplate item="BDT_LootWndIcon">
 		<Normal>A_RecessedBox</Normal>
 		<NormalDecal>A_DragItem</NormalDecal>
