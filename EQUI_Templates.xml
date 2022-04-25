@@ -2970,6 +2970,10 @@
 		<Normal>A_RecessedBox</Normal>
 		<NormalDecal>A_DragItem</NormalDecal>
 	</ButtonDrawTemplate>
+	<ButtonDrawTemplate item="BDT_PetRedBuff">
+		<Normal>PetRedIconBackground</Normal>
+		<NormalDecal>BuffIcons</NormalDecal>
+	</ButtonDrawTemplate>
 	<ButtonDrawTemplate item="BDT_LootWndIcon">
 		<Normal>A_RecessedBox</Normal>
 		<NormalDecal>A_DragItem</NormalDecal>
