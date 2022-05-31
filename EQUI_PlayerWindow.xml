@@ -623,6 +623,20 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
+        <Label item="PW_LVL_CurrentCount">
+		<ScreenID>LVLCountLabel</ScreenID>
+                <EQType>2</EQType>
+		<Font>1</Font>
+                <Text>60 Shadow Knight</Text>
+                <NoWrap>true</NoWrap>
+		<AlignCenter>false</AlignCenter>
+		<AutoStretch>true</AutoStretch>
+		<TopAnchorOffset>65</TopAnchorOffset>
+		<BottomAnchorOffset>75</BottomAnchorOffset>
+		<LeftAnchorOffset>22</LeftAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_Tooltip>false</Style_Tooltip>
+        </Label>
 	<Gauge item="Player_AA_Experience">
 		<ScreenID>PlayerAAExperience</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -863,6 +877,7 @@
 		<Pieces>Player_AA_ExperiencePercLabel</Pieces>
 		<Pieces>Player_AA_Label</Pieces>
 		<Pieces>PW_AA_CurrentCount</Pieces>
+		<Pieces>PW_LVL_CurrentCount</Pieces>
 		<Pieces>Player_LVL_Label</Pieces>
 		<Pieces>Player_CombatTimerLabel</Pieces>
 		<Pieces>PW_CombatStateAnim</Pieces>
